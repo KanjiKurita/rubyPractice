@@ -38,11 +38,14 @@ end
 file.close
 =end
 
+#関数(メソッド)の作成
+=begin
 def hello
     puts "Hello Ruby(気さくな挨拶)"
 end
-
 hello()
+=end
+
 
 
 
