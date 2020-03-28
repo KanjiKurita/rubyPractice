@@ -23,3 +23,19 @@ tags.each do|tagname|
         puts "アァン？ホイホイチャーハン？"
     end
 end
+
+array=["そうだよ(便乗)",114514,nil]
+array.each do |goroku|
+    case goroku
+    when String
+        puts "文字列ですよこれは、たまげたなぁ"
+    when Numeric
+        puts "364364!"
+    else 
+        puts "これもうわかんねぇな"
+    end
+end
+
+go=1
+god=1
+puts "Go is God" if go==god
